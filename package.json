@@ -1,0 +1,40 @@
+{
+  "name": "gitlab-copy-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js index.js",
+    "start": "node index.js",
+    "lint-install": "npm-install-peers || echo 'Please run `npm install -g npm-install-peers` first'"
+  },
+  "author": "Jehy <npm@jehy.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jehy/gitlab-copy-all"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "child-process-promise": "^2.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^2.3.1",
+    "fs-extra": "^3.0.1",
+    "gitlab": "^1.7.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.1.1"
+  }
+}
