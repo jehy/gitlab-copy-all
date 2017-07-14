@@ -20,7 +20,7 @@ npm install git+ssh://git@github.com:jehy/gitlab-copy-all.git
 }
 ```
 
-##Usage
+## Usage
 ```bash
 npm start
 ```
